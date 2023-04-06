@@ -1,0 +1,45 @@
+.MyButton {
+    background-color: #ffc85e;
+    height: 59px;
+    width: 192px;
+    outline: none;
+    font-weight: 700;
+    border-radius: 79px;
+    padding: 10px 19px;
+    gap: 12px;
+    font-size: 14px;
+    color: white;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    &:hover{
+        opacity: 0.8;
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+    .MyButton {
+        background-color: #ffc85e;
+        height: 30px;
+        width: 100px;
+        outline: none;
+        font-weight: 700;
+        border-radius: 79px;
+        padding: 10px 19px;
+        gap: 12px;
+        font-size: 12px;
+        margin-bottom: 5px;
+        color: white;
+        border: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        &:hover{
+            opacity: 0.8;
+        }
+    }
+}

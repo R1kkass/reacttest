@@ -1,0 +1,63 @@
+.AdminPanel {
+    margin: 0 auto;
+    width: 72%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    @media screen and (max-width: 800px) {
+        width: 100%;       
+    }
+    img {
+        height: 100%;
+        object-fit: contain;
+    }
+    &__card {
+        margin-top: 10px;
+        border-radius: 20px;
+        width: 100%;
+        min-height: 200px;
+        padding: 10px;
+        min-width: 500px;
+        object-fit: contain;
+        display: flex;
+        box-shadow: 0 0 3px 2px #ffc85e;
+        border: 1px solid #ffc85e;
+        background: #f6f6f6;
+        @media screen and (max-width: 800px) {
+            min-width: 100%;   
+            flex-direction: column;
+        }
+    }
+    &__img {
+        height:  200px;
+        width: 300px;
+    }
+    &__buttons {
+        margin-left: auto;
+        align-self: center;
+        gap: 10px;
+        flex-wrap: wrap;
+        justify-content: center;
+        display: flex;
+        button {
+            background: none;
+            color: #ffc85e;
+            border: 1px solid #ffc85e;
+            outline: none;
+            height: 50px;
+            padding: 10px;
+            width: fit-content;
+            font-size: 18px;
+            box-shadow: 0 0 5px 2px #ffc85e;
+            border-radius: 20px;
+            cursor: pointer;
+            transition: 0.3s;
+            &:hover {
+                color: white;
+                background: #ffc85e;
+            }
+        }
+    }
+
+}

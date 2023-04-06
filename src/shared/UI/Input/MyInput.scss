@@ -1,0 +1,65 @@
+.MyInput {
+    position: relative;
+    display: flex;
+    align-items: center;
+    input {
+        height: 59px;
+        width: 263px;
+        position: relative;
+        border-radius: 36px;
+        padding: 20px;
+        outline: none;
+        border: none;
+        background-color: #ededed;
+    }
+    button {
+        position: absolute;
+        right: 10px;
+        top: auto;
+        bottom: auto;
+        background-color: #ffc85e;
+        height: 39px;
+        width: 39px;
+        outline: none;
+        border: none;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .MyInput {
+        position: relative;
+        display: flex;
+        align-items: center;
+        input {
+            height: 30px;
+            width: 200px;
+            position: relative;
+            border-radius: 36px;
+            padding: 20px;
+            outline: none;
+            border: none;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            background-color: #ededed;
+        }
+        button {
+            position: absolute;
+            right: 10px;
+            top: auto;
+            bottom: auto;
+            background-color: #ffc85e;
+            height: 20px;
+            width: 20px;
+            outline: none;
+            border: none;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}

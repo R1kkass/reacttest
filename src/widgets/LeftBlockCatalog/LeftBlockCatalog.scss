@@ -1,0 +1,90 @@
+@import "../../app/Styles/Variables.scss";
+
+@media screen and (max-width: 800px) {
+    .LeftBlockCatalog {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        &__price {
+            margin-top: 10px;
+            display: flex;
+            color: #3f4e65;
+            font-size: 14px;
+        }
+    }
+}
+    .LeftBlockCatalog {
+        width: 100%;
+        display: flex;
+        overflow: hidden;
+        flex-direction: column;
+        overflow-x: auto;
+        &__text {
+            margin-bottom: 15px;
+            h4 {
+                font-size: 16px;
+                font-weight: 500;
+            }
+        }
+        &__price {
+            margin-top: 10px;
+            display: flex;
+            color: #3f4e65;
+            font-size: 14px;
+            @media screen and (max-width: 800px) {
+                font-size: 14px;
+            }
+        }
+        &__counter {
+            margin-top: 16px;
+            display: flex;
+            margin-bottom: 34px;
+            gap: 10px;
+            input {
+                border: none;
+                outline: none;
+                width: 100px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background: linear-gradient(
+                    90deg,
+                    rgba(255, 198, 80, 0.3) 0%,
+                    rgba(254, 202, 110, 0.3) 97.25%
+                );
+                border-radius: 1000px;
+                padding: 4px 14px;
+                font-size: 12px;
+                color: $grayText;
+                text-align: center;
+            }
+        }
+        &__input {
+            div{
+                overflow: hidden;
+            }
+            .more {
+                font-size: 12px;
+                margin-top: 15px;
+                cursor: pointer;
+            }
+            padding-bottom: 20px;
+            border-bottom: 1px dotted $grayText;
+            margin-bottom: 20px;
+            .InputButton {
+                display: flex;
+                margin-top: 25px;
+                gap: 10px;
+                button {
+                    &:nth-child(2) {
+                        min-width: 59px;
+                        max-width: 56px;
+                        min-height: 59px;
+                        max-height: 59px;
+                    }
+                }
+            }
+        }
+    }
+

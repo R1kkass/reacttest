@@ -1,0 +1,69 @@
+@import "../../app/Styles/Variables";
+
+.Admin {
+    display: flex;
+    width: 82%;
+    margin: 0 auto;
+    @media screen and (max-width: 800px) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    &__tabs {
+        width: 300px;
+        margin-top: 10px;
+        border-left: 1px solid $yellow;
+        height: 100%;
+        border-right: 1px solid $yellow;
+        box-shadow: 0px 0px 2px 2px $yellow;
+        overflow: hidden;
+        top: 20px;
+        margin-bottom: 5px;
+        @media screen and (max-width: 800px) {
+            min-height: 100px;
+            display: flex;
+            width: 100%;
+            justify-content: center;
+            flex-direction: column;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        div {
+            width: 300px;
+            padding: 10px;
+            &:hover {
+                color: #fff;
+                cursor: pointer;
+                background-color: $yellow;
+            }
+        }
+        .Active {
+            background-color: $yellow;
+            color: #fff;
+            cursor: pointer;
+        }
+    }
+    &__window {
+        width: 100%;
+    }
+    .Filter__delete {
+        display: flex;
+        justify-content: space-between;
+        button {
+            max-width: 200px;
+            height: 40px;
+            cursor: pointer;
+
+            background-color: $yellow;
+            border: none;
+            outline: none;
+            color: white;
+            border-radius: 20px;
+            margin-left: 10px;
+            &:hover {
+                opacity: 0.7;
+            }
+        }
+    }
+}

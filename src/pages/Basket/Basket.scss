@@ -1,0 +1,29 @@
+.Basket {
+    margin: 0 auto;
+    width: 72%;
+    h1 {
+        font-weight: 500;
+        font-size: 40px;
+        margin-bottom: 50px;
+        text-transform: uppercase;
+    }
+    &__order {
+        margin-top: 50px;
+        margin-bottom: 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        p {
+            font-weight: 700;
+            font-size: 30px;
+        }
+    }
+}
+
+.BasketThank{
+    color: white;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

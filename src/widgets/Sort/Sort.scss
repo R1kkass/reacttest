@@ -1,0 +1,39 @@
+.Sort {
+    position: relative;
+    p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        color: #3f4e65;
+        span {
+            cursor: pointer;
+        }
+    }
+    &__toggle {
+        display: flex;
+        flex-direction: column;
+        min-height: 100%;
+        position: absolute;
+        border-radius: 5px;
+        width: fit-content;
+        background: white;
+        border-left: solid 1px #ffc85e;
+        border-right: solid 1px #ffc85e;
+        border-bottom: solid 1px #ffc85e;
+        min-width: 100%;
+        p {
+            padding-left: 10px;
+            font-size: 14px;
+            padding-right: 10px;
+            min-width: 100%;
+            display: flex;
+            align-items: center;
+            height: 30px;
+            &:hover {
+                color: white;
+                background-color: #ffc85e;
+                cursor: pointer;
+            }
+        }
+    }
+}

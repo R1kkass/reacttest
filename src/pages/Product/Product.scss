@@ -1,0 +1,113 @@
+@import '../../app/Styles/Variables.scss';
+
+.Product {
+    display: flex;
+    gap: 40px;
+    margin: 0 auto;
+    @media screen and (max-width: 1000px) {
+        flex-direction: column;
+        justify-content: center;
+    }
+    &__img {
+        width: 50%;
+        img {
+            width: 100%;
+            object-fit: contain;
+            height: 100%;
+        }
+        @media screen and (max-width: 1000px) {
+            width: 100%;
+        }
+    }
+    &__info {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        @media screen and (max-width: 1000px) {
+            width: 100%;
+        }
+    }
+    &__type {
+        color: #1fd85d;
+        font-size: 14px;
+    }
+    &__name {
+        p {
+            font-weight: 800;
+            font-size: 30px;
+            line-height: 150%;
+            @media screen and (max-width: 1000px) {
+                font-weight: 800;
+                font-size: 16px;
+                line-height: 150%;
+            }
+        }
+    }
+    &__price {
+        margin-top: 25px;
+        margin-bottom: 25px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 40px;
+       
+    }
+    &__buttons {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        @media screen and (max-width: 1000px) {
+            flex-direction: column;
+        }
+        .Share {
+            padding: 28px;
+        }
+        .Promotion {
+            width: 50%;
+            padding-left: 37px;
+            padding-right: 37px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 150%;
+            text-align: center;
+            @media screen and (max-width: 1000px) {
+                width: 100%;
+                padding: 5px;
+            }
+        }
+        .PriceList {
+            display: flex;
+            color: #3f4e65;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 120%;
+            padding-left: 37px;
+            padding-right: 37px;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            p {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 10px;
+            }
+        }
+    }
+}
+
+.Container {
+    margin: 0 auto;
+    width: 72%;
+    margin-bottom: 60px;
+}
+
+.Pargaraph {
+    font-size: 14px;
+    color: #3f4e65;
+    margin-top: 5px;
+    span {
+        font-weight: 700;
+    }
+}

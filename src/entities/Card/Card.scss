@@ -1,0 +1,79 @@
+@import '../../app/Styles/Variables.scss';
+
+
+.Card {
+    width: 326px;
+    padding: 20px;
+    padding-top: 42px;
+    box-shadow: 0px 14px 39px -11px rgba(0, 0, 0, 0.06);
+    border-radius: 10px;
+    max-height: 490px;
+    padding-bottom: 29px;
+    overflow: hidden;
+    margin-top: 0;
+    &__img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 194px;
+        width: 326px;
+        padding: 20px;
+        img {
+            height: 194px;
+        }
+    }
+    &__code {
+        p {
+            margin-bottom: 5px;
+            font-size: 14px;
+            color: $grayText;
+            span {
+                color: #111111;
+                font-weight: 600;
+            }
+        }
+        margin-top: 20px;
+    }
+    &__name {
+        height: 40px;
+        overflow: hidden;
+
+        p {
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 130%;
+        }
+    }
+    button {
+        width: 153px;
+        height: 45px;
+        font-size: 12px;
+        font-weight: 700;
+    }
+    &__price {
+        margin-top: 15px;
+        
+        display: flex;
+        gap: 40px;
+        align-items: center;
+        .Price {
+            width: 80px;
+            white-space: nowrap;
+            overflow-wrap: normal;
+            text-overflow: ellipsis;
+            font-weight: 700;
+            overflow: hidden;
+        }
+    }
+    &__weight {
+        display: flex;
+        gap: 8px;
+        font-weight: 400;
+        color: #3F4E65;
+        font-size: 12px;
+        margin-bottom: 10px;
+        img {
+            opacity: 0.23;
+        }
+    }
+}

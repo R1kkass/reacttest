@@ -1,0 +1,21 @@
+.Count {
+    display: flex;
+    align-items: center;
+    gap: 21px;
+    flex-shrink: 2;
+
+    button {
+        width: 34px;
+        height: 23px;
+        background: linear-gradient(
+            90deg,
+            rgba(255, 198, 80, 0.3) 0%,
+            rgba(254, 202, 110, 0.3) 97.25%
+        );
+        color: #3f4e65;
+        border: none;
+        border-radius: 1000px;
+        outline: none;
+
+    }
+}

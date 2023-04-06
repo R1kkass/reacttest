@@ -1,0 +1,19 @@
+.CheckBox{
+    margin-top: 16px;
+    display: flex;
+    &__text{
+        margin-left: 10px;
+        margin-right: 5px;
+        color: #3f4e65;
+        font-size: 14px;
+    }
+    &__count{
+        color: #3f4e65;
+        font-size: 12px;
+    }
+    label{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+}
