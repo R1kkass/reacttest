@@ -1,6 +1,5 @@
-import { Route, Routes, BrowserRouter, HashRouter } from "react-router-dom"
+import { Route, Routes,HashRouter } from "react-router-dom"
 import Navigation from "../widgets/Navigation/Navigation"
-import AdminPanel from "../widgets/AdminPanel/AdminPanel"
 import EditPanel from "../widgets/EditFiltres/EditPanel"
 import Basket from "./Basket/Basket"
 import Main from "./Catalog/Catalog"

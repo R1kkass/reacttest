@@ -5,7 +5,7 @@ const Loader = () => {
     return (
         <>
             {createPortal(
-                <div className="Loader">
+                <div data-testid="loader" className="Loader">
                     <div className="lds-ring">
                         <div></div>
                         <div></div>

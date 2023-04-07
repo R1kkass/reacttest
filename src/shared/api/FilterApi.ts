@@ -38,8 +38,6 @@ export const FilterApiDelte = async (id:number) => {
 }
 
 export const FilterApiPut = async (id:number, post: IFilterApi) => {
-    console.log(post);
-    
     const res: IFilterApiData = await axios.put(
         "https://641757421cbdda1fa1577617.mockapi.io/cx/xdgf/"+id,{
             ...post

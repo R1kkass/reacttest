@@ -6,7 +6,7 @@ import './Modal.scss'
 const Modal: FC<{
     children: React.ReactNode
     visible: boolean
-    callback: () => void
+    callback?: () => void
 }> = ({ visible, children, callback }) => {
     return (
         

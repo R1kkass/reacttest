@@ -12,14 +12,13 @@ import address from "../../shared/UI/SVG/Address/Address.svg"
 import email from "../../shared/UI/SVG/Email/Email.svg"
 import baskets from "../../shared/UI/SVG/Basket/Basket.svg"
 import logoFooter from "../../shared/UI/SVG/Logo/LogoFooter.svg"
-import { Children, FC, useContext, useEffect, useState } from "react"
+import { FC, useEffect, useState } from "react"
 import MyInput from "../../shared/UI/Input/MyInput"
-import { Link, useNavigate } from "react-router-dom"
-import { useSelector } from "react-redux/es/hooks/useSelector"
+import { Link } from "react-router-dom"
+import { useSelector } from "react-redux"
 import { IRedux } from "../../app/Redux/Store/Index"
 import { ICardApi } from "../../shared/api/CardApi"
 import search from "../../shared/UI/SVG/Search/Search.svg"
-import LeftBlockCatalog from "../LeftBlockCatalog/LeftBlockCatalog"
 import LeftBlockMobile from "../../shared/UI/LeftBlockMobile/LeftBlockMobile"
 import mobile from "../../shared/UI/SVG/Mobile/Mobile.svg"
 
@@ -40,16 +39,16 @@ const Navigation: FC<{ children: React.ReactNode }> = ({ children }) => {
     useEffect(() => {
         var x: any = window.matchMedia("(max-width: 800px)")
         function myFunction(x: any) {
-            if (x.matches) {
+            if (x?.matches) {
                 setQuery(true)
             } else {
                 setQuery(false)
             }
         }
         myFunction(x)
-        x.addListener(myFunction)
+        x?.addListener(myFunction)
 
-        return x.removeListener(myFunction)
+        return x?.removeListener(myFunction)
     }, [])
 
     const [visible, setVisible] = useState<boolean>(false)
@@ -82,7 +81,8 @@ const Navigation: FC<{ children: React.ReactNode }> = ({ children }) => {
                         <p>Доставка и оплата</p>
                     </div>
                     <div>
-                        <Link to="/adm">
+                        <Link  data-testid="adm-page"
+                         to="/adm">
                             <p>Админ панель</p>
                         </Link>
                     </div>
@@ -224,7 +224,7 @@ const Navigation: FC<{ children: React.ReactNode }> = ({ children }) => {
                     </div>
                     <div className="Navigation__secondLine">
                         <img src={logo} />
-                        <Link to="/">
+                        <Link to="/" >
                             <div className="SecondLine__button">
                                 <MyButton>
                                     Каталог
@@ -257,7 +257,7 @@ const Navigation: FC<{ children: React.ReactNode }> = ({ children }) => {
                                 <img src={download} />
                             </MyButton>
                         </div>
-                        <Link to="/basket">
+                        <Link to="/basket" data-testid="main-link">
                             <div className="SecondLine__basket">
                                 <img src={baskets} />
                                 <div className="dottedBasket">

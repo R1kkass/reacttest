@@ -7,9 +7,9 @@ const Count: FC<{
 }> = ({ onClickMinus, onClickPlus, count }) => {
     return (
         <div className="Count">
-            <button onClick={onClickMinus}>-</button>
+            <button onClick={onClickMinus} data-testid="-">-</button>
             <p>{count}</p>
-            <button onClick={onClickPlus}>+</button>
+            <button onClick={onClickPlus} data-testid="+">+</button>
         </div>
     )
 }

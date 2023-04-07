@@ -9,7 +9,7 @@ const Toggle:FC<{children: React.ReactNode, nameBtn: string, num?: number}> = ({
     if (bol) {
         return (
             <div className="Toggle">
-                <button onClick={() => setBol((p) => !p)}>{nameBtn} <img src={polygonTop}/></button>
+                <button data-testid="btn" onClick={() => setBol((p) => !p)}>{nameBtn} <img src={polygonTop}/></button>
                 <div>
                     {children}
                 </div>
@@ -19,7 +19,7 @@ const Toggle:FC<{children: React.ReactNode, nameBtn: string, num?: number}> = ({
 
     return (
         <div className="Toggle">
-            <button onClick={() => setBol((p) => !p)}>{nameBtn} <img src={polygonBottom}/></button>
+            <button data-testid="btn" onClick={() => setBol((p) => !p)}>{nameBtn} <img src={polygonBottom}/></button>
         </div>
     )
 }

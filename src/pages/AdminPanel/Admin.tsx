@@ -35,7 +35,7 @@ const Admin = () => {
     },[])
 
     return (
-        <div className="Admin">
+        <div className="Admin" data-testid="admin-page">
             <div className="Admin__tabs">
                 <div className={searchParams.get('type')=='1' ? 'Active' : ''} onClick={()=>switchFn(1)}>
                     <h3 >Продукты</h3>

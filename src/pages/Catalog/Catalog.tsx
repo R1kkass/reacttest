@@ -12,7 +12,7 @@ import Pagination from "../../widgets/Pagination/Pagination"
 
 const Catalog = () => {
     return (
-        <div className="Catalog">
+        <div data-testid='main-page' className="Catalog">
             <div className="Catalog__broadCrumbs">
                 <Breadcrumbs arr={[{ name: "Каталог", link: "/" }]} />
             </div>

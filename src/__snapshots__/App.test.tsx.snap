@@ -1,5 +1,730 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Test Navigation 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="Content"
+      >
+        <div
+          class="Navigation"
+        >
+          <div
+            class="Navigation__firstLine"
+          >
+            <div
+              class="Navigation__container"
+            >
+              <div
+                class="Navigation__address"
+              >
+                <img
+                  src="Address.svg"
+                />
+                <div>
+                  <p>
+                    г. Кокчетав, ул. Ж. Ташенова 129Б
+                  </p>
+                  <p>
+                    (Рынок Восточный)
+                  </p>
+                </div>
+              </div>
+              <div
+                class="Navigation__email"
+              >
+                <img
+                  src="Email.svg"
+                />
+                <div>
+                  <p>
+                    opt.sultan@mail.ru
+                  </p>
+                  <p>
+                    На связи в любое время
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="Navigation__navBar"
+            >
+              <div>
+                <p>
+                  О компании
+                </p>
+              </div>
+              <div>
+                <p>
+                  Доставка и оплата
+                </p>
+              </div>
+              <div>
+                <p>
+                  Возврат
+                </p>
+              </div>
+              <div>
+                <p>
+                  Контакты
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="Navigation__secondLine"
+          >
+            <img
+              src="Logo.svg"
+            />
+            <a
+              href="/"
+            >
+              <div
+                class="SecondLine__button"
+              >
+                <button
+                  class="MyButton"
+                >
+                  Каталог
+                  <img
+                    src="Catalog.svg"
+                  />
+                </button>
+              </div>
+            </a>
+            <div
+              class="SecondLine__search"
+            >
+              <div
+                class="MyInput"
+              >
+                <input
+                  placeholder="Поиск..."
+                />
+                <button
+                  class="MyButton"
+                >
+                  <img
+                    src="Search.svg"
+                  />
+                </button>
+              </div>
+            </div>
+            <div
+              class="SecondLine__contact"
+            >
+              <div
+                class="SecondLine__number"
+              >
+                <p>
+                  +7 (777) 490-00-91
+                </p>
+              </div>
+              <div
+                class="SecondLine__time"
+              >
+                <p>
+                  время работы: 9:00-20:00
+                </p>
+              </div>
+              <div
+                class="SecondLine__call"
+              >
+                <p>
+                  Заказать звонок
+                </p>
+              </div>
+              <div
+                class="SecondLine__img"
+              >
+                <img
+                  src="pngwing3.png"
+                />
+                <div
+                  class="dottedGreen"
+                />
+              </div>
+            </div>
+            <div>
+              <button
+                class="MyButton"
+              >
+                Прайс-лист
+                <img
+                  src="Download.svg"
+                />
+              </button>
+            </div>
+            <a
+              href="/basket"
+            >
+              <div
+                class="SecondLine__basket"
+              >
+                <img
+                  src="Basket.svg"
+                />
+                <div
+                  class="dottedBasket"
+                >
+                  <p>
+                    0
+                  </p>
+                </div>
+              </div>
+            </a>
+            <a
+              href="/basket"
+            >
+              <div
+                class="SecondLine__price"
+              >
+                <p>
+                  Корзина
+                </p>
+                <p>
+                  0
+                  ₸
+                </p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div
+        class="Footer"
+      >
+        <div
+          class="Footer__logo"
+        >
+          <img
+            src="LogoFooter.svg"
+          />
+          <p>
+            Компания «Султан» — снабжаем розничные магазины товарами "под ключ" в Кокчетаве и Акмолинской области
+          </p>
+          <p>
+            Подпишись на скидки и акции
+          </p>
+          <div>
+            <div
+              class="MyInput"
+            >
+              <input
+                placeholder="Поиск..."
+              />
+              <button
+                class="MyButton"
+              >
+                <img
+                  src="Search.svg"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="Footer__menu"
+        >
+          <h2>
+            Меню сайта:
+          </h2>
+          <p>
+            О компании
+          </p>
+          <p>
+            Доставка и оплата
+          </p>
+          <p>
+            Возврат
+          </p>
+          <p>
+            Контакты
+          </p>
+        </div>
+        <div
+          class="Footer__menu"
+        >
+          <h2>
+            Категории:
+          </h2>
+          <p>
+            Бытовая химия
+          </p>
+          <p>
+            Косметика и гигиена
+          </p>
+          <p>
+            Товары для дома
+          </p>
+          <p>
+            Товары для детей и мам
+          </p>
+          <p>
+            Посуда
+          </p>
+        </div>
+        <div
+          class="Footer__menu"
+        >
+          <h2>
+            Скачать прайс-лист:
+          </h2>
+          <button
+            class="MyButton"
+          >
+            Прайс-лист 
+            <img
+              src="Download.svg"
+            />
+          </button>
+          <p>
+            Связь в мессенджерах:
+          </p>
+          <div
+            class="Footer__messanger"
+          >
+            <img
+              src="WhatsApp.svg"
+            />
+            <img
+              src="Telegram.svg"
+            />
+          </div>
+        </div>
+        <div
+          class="Footer__menu Footer__visa"
+        >
+          <h2>
+            Контакты:
+          </h2>
+          <div
+            class="Footer__contactns"
+          >
+            <p>
+              +7 (777) 490-00-91
+            </p>
+            <p>
+              время работы: 9:00-20:00
+            </p>
+            <p>
+              Заказать звонок
+            </p>
+          </div>
+          <div
+            class="Footer__contactns2"
+          >
+            <p>
+              opt.sultan@mail.ru
+            </p>
+            <p>
+              На связи в любое время
+            </p>
+          </div>
+          <div
+            class="Footer__messanger"
+          >
+            <img
+              src="Visa.svg"
+            />
+            <img
+              src="MasterCard.svg"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="Content"
+    >
+      <div
+        class="Navigation"
+      >
+        <div
+          class="Navigation__firstLine"
+        >
+          <div
+            class="Navigation__container"
+          >
+            <div
+              class="Navigation__address"
+            >
+              <img
+                src="Address.svg"
+              />
+              <div>
+                <p>
+                  г. Кокчетав, ул. Ж. Ташенова 129Б
+                </p>
+                <p>
+                  (Рынок Восточный)
+                </p>
+              </div>
+            </div>
+            <div
+              class="Navigation__email"
+            >
+              <img
+                src="Email.svg"
+              />
+              <div>
+                <p>
+                  opt.sultan@mail.ru
+                </p>
+                <p>
+                  На связи в любое время
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="Navigation__navBar"
+          >
+            <div>
+              <p>
+                О компании
+              </p>
+            </div>
+            <div>
+              <p>
+                Доставка и оплата
+              </p>
+            </div>
+            <div>
+              <p>
+                Возврат
+              </p>
+            </div>
+            <div>
+              <p>
+                Контакты
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="Navigation__secondLine"
+        >
+          <img
+            src="Logo.svg"
+          />
+          <a
+            href="/"
+          >
+            <div
+              class="SecondLine__button"
+            >
+              <button
+                class="MyButton"
+              >
+                Каталог
+                <img
+                  src="Catalog.svg"
+                />
+              </button>
+            </div>
+          </a>
+          <div
+            class="SecondLine__search"
+          >
+            <div
+              class="MyInput"
+            >
+              <input
+                placeholder="Поиск..."
+              />
+              <button
+                class="MyButton"
+              >
+                <img
+                  src="Search.svg"
+                />
+              </button>
+            </div>
+          </div>
+          <div
+            class="SecondLine__contact"
+          >
+            <div
+              class="SecondLine__number"
+            >
+              <p>
+                +7 (777) 490-00-91
+              </p>
+            </div>
+            <div
+              class="SecondLine__time"
+            >
+              <p>
+                время работы: 9:00-20:00
+              </p>
+            </div>
+            <div
+              class="SecondLine__call"
+            >
+              <p>
+                Заказать звонок
+              </p>
+            </div>
+            <div
+              class="SecondLine__img"
+            >
+              <img
+                src="pngwing3.png"
+              />
+              <div
+                class="dottedGreen"
+              />
+            </div>
+          </div>
+          <div>
+            <button
+              class="MyButton"
+            >
+              Прайс-лист
+              <img
+                src="Download.svg"
+              />
+            </button>
+          </div>
+          <a
+            href="/basket"
+          >
+            <div
+              class="SecondLine__basket"
+            >
+              <img
+                src="Basket.svg"
+              />
+              <div
+                class="dottedBasket"
+              >
+                <p>
+                  0
+                </p>
+              </div>
+            </div>
+          </a>
+          <a
+            href="/basket"
+          >
+            <div
+              class="SecondLine__price"
+            >
+              <p>
+                Корзина
+              </p>
+              <p>
+                0
+                ₸
+              </p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div
+      class="Footer"
+    >
+      <div
+        class="Footer__logo"
+      >
+        <img
+          src="LogoFooter.svg"
+        />
+        <p>
+          Компания «Султан» — снабжаем розничные магазины товарами "под ключ" в Кокчетаве и Акмолинской области
+        </p>
+        <p>
+          Подпишись на скидки и акции
+        </p>
+        <div>
+          <div
+            class="MyInput"
+          >
+            <input
+              placeholder="Поиск..."
+            />
+            <button
+              class="MyButton"
+            >
+              <img
+                src="Search.svg"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        class="Footer__menu"
+      >
+        <h2>
+          Меню сайта:
+        </h2>
+        <p>
+          О компании
+        </p>
+        <p>
+          Доставка и оплата
+        </p>
+        <p>
+          Возврат
+        </p>
+        <p>
+          Контакты
+        </p>
+      </div>
+      <div
+        class="Footer__menu"
+      >
+        <h2>
+          Категории:
+        </h2>
+        <p>
+          Бытовая химия
+        </p>
+        <p>
+          Косметика и гигиена
+        </p>
+        <p>
+          Товары для дома
+        </p>
+        <p>
+          Товары для детей и мам
+        </p>
+        <p>
+          Посуда
+        </p>
+      </div>
+      <div
+        class="Footer__menu"
+      >
+        <h2>
+          Скачать прайс-лист:
+        </h2>
+        <button
+          class="MyButton"
+        >
+          Прайс-лист 
+          <img
+            src="Download.svg"
+          />
+        </button>
+        <p>
+          Связь в мессенджерах:
+        </p>
+        <div
+          class="Footer__messanger"
+        >
+          <img
+            src="WhatsApp.svg"
+          />
+          <img
+            src="Telegram.svg"
+          />
+        </div>
+      </div>
+      <div
+        class="Footer__menu Footer__visa"
+      >
+        <h2>
+          Контакты:
+        </h2>
+        <div
+          class="Footer__contactns"
+        >
+          <p>
+            +7 (777) 490-00-91
+          </p>
+          <p>
+            время работы: 9:00-20:00
+          </p>
+          <p>
+            Заказать звонок
+          </p>
+        </div>
+        <div
+          class="Footer__contactns2"
+        >
+          <p>
+            opt.sultan@mail.ru
+          </p>
+          <p>
+            На связи в любое время
+          </p>
+        </div>
+        <div
+          class="Footer__messanger"
+        >
+          <img
+            src="Visa.svg"
+          />
+          <img
+            src="MasterCard.svg"
+          />
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
 exports[`With arr 1`] = `
 Object {
   "asFragment": [Function],
